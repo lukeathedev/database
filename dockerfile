@@ -1,3 +1,5 @@
 FROM postgres:latest
-COPY ./tables.sql /docker-entrypoint-initdb.d/tables.sql
+RUN mkdir /default
+COPY ./default/* /default/
+COPY ./*.sql /docker-entrypoint-initdb.d/
 CMD ["docker-entrypoint.sh", "postgres"]

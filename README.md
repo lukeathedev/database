@@ -6,11 +6,11 @@
 
 ## Informações
 
-Este repositório contém definições de tabelas para as bases de dados que hospedam as time-series de preços captadas pela equipe da UTFPR e pelo [scraper](https://github.com/lukeathedev/scraper).
+Este repositório contém definições de tabelas para as bases de dados que hospedam as time series de preços captadas pela equipe da UTFPR e pelo [scraper](https://github.com/lukeathedev/scraper).
 
 ## TODOs
 
-Definir as tabelas
+Definir as tabelas para o scraper
 
 ## Estrutura dos Arquivos
 

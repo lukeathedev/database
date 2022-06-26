@@ -1,0 +1,16 @@
+{
+  "name": "xls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "csv2sql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}

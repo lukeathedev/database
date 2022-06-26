@@ -1,4 +1,10 @@
-// https://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript
+// Autor:      Lucas Alvarenga (lb.am.alvarenga@uel.br)
+// Inspiração: https://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript
+// Descrição:  Transforma os nomes de supermercados e
+//             produtos em IDs apropriados para a
+//             base de dados PostgreSQL.
+// Criação:    2022-06-25
+
 TSH = (s) => {
   for (var i = 0, h = 9; i < s.length; )
     h = Math.imul(h ^ s.charCodeAt(i++), 9 ** 9);
