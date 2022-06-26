@@ -15,3 +15,23 @@ Definir as tabelas para o scraper
 ## Estrutura dos Arquivos
 
 xls/ é uma pasta que agrega os templates de planilhas a serem enviadas por e-mail para o departamento do EconoStat, além de helpers para a transformação de dados.
+
+## Estrutura da Base de Dados
+
+### public.supermarkets
+
+| id  | uid        | Name    |
+|-----|------------|---------|
+| int | varchar(8) | varchar |
+
+### public.products
+
+| id  | uid        | Name    | Quantity |
+|-----|------------|---------|----------|
+| int | varchar(8) | varchar | varchar  |
+
+### public.timeseries
+
+| id  | Date | supermarket_uid | product_uid   | Price |
+|-----|------|-----------------|---------------|-------|
+| int | date | varchar(8) FK   | varchar(8) FK | real  |
