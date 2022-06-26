@@ -2,9 +2,9 @@
 -- TODO: field de endereço?
 CREATE TABLE IF NOT EXISTS public.supermarkets
 (
-    id   integer NOT NULL GENERATED ALWAYS AS IDENTITY,
-    uid  character varying(8) NOT NULL,
-    Name character varying,
+    id     integer NOT NULL GENERATED ALWAYS AS IDENTITY,
+    uid    character varying(8) NOT NULL,
+    "Name" character varying,
 
     PRIMARY KEY (id),
     UNIQUE (uid)
