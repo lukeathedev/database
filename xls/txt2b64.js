@@ -5,6 +5,8 @@
 //             base de dados PostgreSQL.
 // Criação:    2022-06-25
 
+// TODO: auto populate ../default/*.csv
+
 TSH = (s) => {
   for (var i = 0, h = 9; i < s.length; )
     h = Math.imul(h ^ s.charCodeAt(i++), 9 ** 9);
